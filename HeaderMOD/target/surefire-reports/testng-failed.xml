@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [ESPN test]">
+  <test thread-count="5" verbose="0" name="ESPN Header Module(failed)">
+    <parameter name="browser_name" value="Chrome"/>
+    <parameter name="operating_system" value="Linux"/>
+    <parameter name="URL" value="https://www.amazon.com/"/>
+    <classes>
+      <class name="searchTestCases.TestSearch">
+        <methods>
+          <include name="tearDown"/>
+          <include name="TestSearching"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- searchTestCases.TestSearch -->
+    </classes>
+  </test> <!-- ESPN Header Module(failed) -->
+</suite> <!-- Failed suite [ESPN test] -->
