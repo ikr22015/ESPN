@@ -102,7 +102,7 @@
                     <div class="method-list-content passed suite-ESPN_test">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-ESPN_test" title="searchTestCases.TestSearch" hash-for-method="TestSearching">TestSearching</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-ESPN_test" title="headerTestCases.SearchTest" hash-for-method="testStart">testStart</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-ESPN_test -->
@@ -120,14 +120,14 @@
           <div class="suite-ESPN_test-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">searchTestCases.TestSearch</span>
+              <span class="class-name">headerTestCases.SearchTest</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="TestSearching">
-                  </a> <!-- TestSearching -->
-                  <span class="method-name">TestSearching</span>
+                  <a name="testStart">
+                  </a> <!-- testStart -->
+                  <span class="method-name">testStart</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -145,9 +145,9 @@
   &lt;test thread-count=&quot;5&quot; verbose=&quot;0&quot; name=&quot;ESPN Header Module&quot;&gt;
     &lt;parameter name=&quot;browser_name&quot; value=&quot;Chrome&quot;/&gt;
     &lt;parameter name=&quot;operating_system&quot; value=&quot;Linux&quot;/&gt;
-    &lt;parameter name=&quot;URL&quot; value=&quot;https://www.amazon.com/&quot;/&gt;
+    &lt;parameter name=&quot;URL&quot; value=&quot;http://www.espn.com/&quot;/&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;searchTestCases.TestSearch&quot;/&gt;
+      &lt;class name=&quot;headerTestCases.SearchTest&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- ESPN Header Module --&gt;
 &lt;/suite&gt; &lt;!-- ESPN test --&gt;
@@ -189,9 +189,9 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'TestSearching')
-data.setCell(0, 2, 'searchTestCases.TestSearch')
-data.setCell(0, 3, 2270);
+data.setCell(0, 1, 'testStart')
+data.setCell(0, 2, 'headerTestCases.SearchTest')
+data.setCell(0, 3, 2529);
 window.suiteTableData['ESPN_test']= { tableData: data, tableDiv: 'times-div-ESPN_test'}
 return data;
 }
@@ -222,18 +222,18 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">searchTestCases.TestSearch</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">headerTestCases.SearchTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">setUp(Chrome, Linux, https://www.amazon.com/)</span>
+                <span class="method-name">setUp(Chrome, Linux, http://www.espn.com/)</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">TestSearching</span>
-                <span class="method-start">4095 ms</span>
+                <span class="method-name">testStart</span>
+                <span class="method-start">5339 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">6366 ms</span>
+                <span class="method-start">7869 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

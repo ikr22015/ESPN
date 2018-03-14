@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="ESPN test" duration-ms="6458" started-at="2018-03-09T05:42:14Z" finished-at="2018-03-09T05:42:20Z">
+  <suite name="ESPN test" duration-ms="7954" started-at="2018-03-14T03:19:02Z" finished-at="2018-03-14T03:19:10Z">
     <groups>
     </groups>
-    <test name="ESPN Header Module" duration-ms="6458" started-at="2018-03-09T05:42:14Z" finished-at="2018-03-09T05:42:20Z">
-      <class name="searchTestCases.TestSearch">
-        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:searchTestCases.TestSearch@4bbfb90a]" name="setUp" is-config="true" duration-ms="4095" started-at="2018-03-09T05:42:14Z" finished-at="2018-03-09T05:42:18Z">
+    <test name="ESPN Header Module" duration-ms="7954" started-at="2018-03-14T03:19:02Z" finished-at="2018-03-14T03:19:10Z">
+      <class name="headerTestCases.SearchTest">
+        <test-method status="PASS" signature="setUp(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:headerTestCases.SearchTest@4bbfb90a]" name="setUp" is-config="true" duration-ms="5339" started-at="2018-03-14T03:19:02Z" finished-at="2018-03-14T03:19:08Z">
           <params>
             <param index="0">
               <value>
@@ -21,22 +21,22 @@
             </param>
             <param index="2">
               <value>
-                <![CDATA[https://www.amazon.com/]]>
+                <![CDATA[http://www.espn.com/]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="TestSearching()[pri:0, instance:searchTestCases.TestSearch@4bbfb90a]" name="TestSearching" duration-ms="2270" started-at="2018-03-09T05:42:18Z" finished-at="2018-03-09T05:42:20Z">
+        <test-method status="PASS" signature="testStart()[pri:0, instance:headerTestCases.SearchTest@4bbfb90a]" name="testStart" duration-ms="2529" started-at="2018-03-14T03:19:08Z" finished-at="2018-03-14T03:19:10Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestSearching -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:searchTestCases.TestSearch@4bbfb90a]" name="tearDown" is-config="true" duration-ms="74" started-at="2018-03-09T05:42:20Z" finished-at="2018-03-09T05:42:20Z">
+        </test-method> <!-- testStart -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:headerTestCases.SearchTest@4bbfb90a]" name="tearDown" is-config="true" duration-ms="72" started-at="2018-03-14T03:19:10Z" finished-at="2018-03-14T03:19:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- searchTestCases.TestSearch -->
+      </class> <!-- headerTestCases.SearchTest -->
     </test> <!-- ESPN Header Module -->
   </suite> <!-- ESPN test -->
 </testng-results>
